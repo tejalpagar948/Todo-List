@@ -1,1 +1,18 @@
-@import 'tailwindcss';
+/* input.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#2a1560];
+}
+.list {
+  @apply bg-[#edeef0] !important;
+}
+.edit-icon {
+  @apply hidden;
+}
+
+.todo-item:hover + .edit-icon {
+  @apply visible !important;
+}

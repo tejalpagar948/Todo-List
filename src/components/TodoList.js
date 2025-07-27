@@ -37,7 +37,7 @@ const TodoList = () => {
 
   return (
     <div
-      className="todo-list-div bg-[#fff] w-full md:w-5/12 m-auto md:rounded-[15px] max-w-[1000px] md:my-10 py-8 min-h-[100vh] md:min-h-[508px] h-auto
+      className="todo-list-div bg-[#fff] w-full md:w-5/12 m-auto md:rounded-[15px] max-w-[1000px] md:my-10 py-8 min-h-[100vh] md:min-h-[86vh] h-auto
       ">
       <div className="wrapper w-10/12 mx-auto flex flex-col gap-7 h-full">
         <div className="todo-header flex gap-2.5 items-center ">
@@ -75,7 +75,7 @@ const TodoList = () => {
           </div>
         )}
         {todos.length === 0 && (
-          <div className="w-full h-full flex items-center justify-center min-h-[300px] md:pb-8">
+          <div className="w-full h-full flex items-center justify-center min-h-[255px] md:pb-8">
             <h3 className="text-2xl md:text-3xl font-bold text-[#2a1560] text-center">
               Please Your Add Todo List
             </h3>

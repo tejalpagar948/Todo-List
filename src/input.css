@@ -16,3 +16,23 @@ body {
 .todo-item:hover + .edit-icon {
   @apply visible !important;
 }
+
+.check-box {
+  content: '';
+}
+
+.edit-icon2 {
+  @apply hidden;
+}
+
+.todo-item:hover .edit-icon2 {
+  @apply block !important;
+}
+
+.todo-complete p {
+  @apply line-through text-[#d0d0d0];
+}
+
+.todo-complete img {
+  @apply bg-[#ff5845] border-[#ff5845];
+}
